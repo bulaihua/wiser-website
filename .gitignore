@@ -1,0 +1,13 @@
+# Ignore everything except website
+*
+
+# But include these
+!/.gitignore
+!/package.json
+!/package-lock.json
+!/vite.config.js
+!/tailwind.config.js
+!/index.html
+!/.env
+!/src/
+!/public/
