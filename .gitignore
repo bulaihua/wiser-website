@@ -11,4 +11,5 @@
 !/.env
 !/src/
 !/public/
+!/vercel.json
 .vercel
