@@ -11,7 +11,7 @@ export default function ProductDetail() {
 
   if (!product) {
     return (
-      <div className="pt-32 text-center">
+      <div className="pt-36 text-center">
         <p>Product not found</p>
         <Link to="/" className="btn-primary mt-4 inline-block">Back to Home</Link>
       </div>
@@ -29,7 +29,7 @@ export default function ProductDetail() {
   };
 
   return (
-    <div className="pt-32 pb-20">
+    <div className="pt-36 pb-20">
       <div className="container-custom">
         {/* Back Button */}
         <motion.div

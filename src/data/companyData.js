@@ -4,8 +4,8 @@ export const companyInfo = {
   annualRevenue: "$40M+",
   annualProduction: "8M+",
   employees: "500+",
-  email: "Yifan@Wisor.co",
-  description: "A leading ODM/OEM enterprise specializing in clothing and accessories, with 20 years of experience serving top international fashion brands."
+  email: "info@wiser.co",
+  description: "A global fashion group delivering complete solutions from design concept to final delivery. With 20 years of expertise and facilities across China and Southeast Asia, we help brands worldwide bring their visions to life—faster, smarter, and more efficiently."
 };
 
 export const brands = [
@@ -32,16 +32,19 @@ export const globalFootprint = {
 
 export const certifications = [
   {
-    name: "PVH Audit",
-    description: "Compliance with PVH's rigorous standards for labor practices and workplace safety"
+    name: "WRAP Certification",
+    description: "Worldwide Responsible Accredited Production certification for social compliance",
+    logo: "/images/wrap.png"
   },
   {
     name: "SGS Audit",
-    description: "Third-party verification of quality management systems and product quality"
+    description: "Third-party verification of quality management systems and product quality",
+    logo: "/images/sgs-logo.png"
   },
   {
-    name: "WRAP Certification",
-    description: "Worldwide Responsible Accredited Production certification for social compliance"
+    name: "PVH Audit",
+    description: "Compliance with PVH's rigorous standards for labor practices and workplace safety",
+    logo: "/images/pvh-logo-new.png"
   }
 ];
 
@@ -86,9 +89,24 @@ export const caseStudies = [
 
 export const navigation = [
   { name: "Home", href: "/" },
-  { name: "Product", href: "/products" },
-  { name: "Case Studies", href: "/case-studies" },
-  { name: "Factories & Certifications", href: "/certifications" },
-  { name: "About Us", href: "/about" },
-  { name: "Contact", href: "/contact" }
+  { name: "Our Services", href: "/services", hasDropdown: true },
+  { name: "How We Work", href: "/how-we-work" },
+  { name: "Global Presence", href: "/global-presence", hasDropdown: false },
+  { name: "FAQ", href: "/faq" },
+  { name: "About Us", href: "/about", hasDropdown: true }
+];
+
+export const servicesSubmenu = [
+  { name: "Concept Studio", href: "/services/design" },
+  { name: "Sourcing & Development", href: "/services/development" },
+  { name: "Manufacturing", href: "/services/manufacturing" },
+  { name: "Quality Assurance", href: "/services/quality" },
+  { name: "Logistics & Shipping", href: "/services/logistics" }
+];
+
+export const aboutSubmenu = [
+  { name: "Overview", href: "/about/overview" },
+  { name: "Leadership", href: "/about/leadership" },
+  { name: "History", href: "/about/history" },
+  { name: "Sustainability", href: "/about/sustainability" }
 ];

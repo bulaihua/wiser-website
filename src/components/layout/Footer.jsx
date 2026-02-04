@@ -11,30 +11,28 @@ export default function Footer() {
 
   return (
     <footer className="bg-accent-black text-white">
-      <div className="container-custom py-20 md:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+      <div className="container-custom py-6 md:py-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-3 mb-4">
               <img
                 src="/logo.png"
                 alt="Wiser Enterprise Logo"
-                className="h-14 w-auto object-contain brightness-0 invert"
+                className="h-12 w-auto object-contain"
               />
-              <span className="font-display text-xl">Wiser Enterprise</span>
             </div>
-            <p className="text-gray-400 leading-relaxed max-w-md mb-8">
-              A leading ODM/OEM enterprise specializing in premium knitwear and accessories.
-              Trusted by world-renowned fashion brands since 2006.
+            <p className="text-gray-400 leading-relaxed max-w-md mb-3 text-base">
+              Beyond Manufacturing.
             </p>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-medium tracking-widest uppercase text-gray-500 mb-6">
+            <h4 className="text-sm font-medium tracking-widest uppercase text-gray-500 mb-3">
               Contact
             </h4>
-            <ul className="space-y-4">
+            <ul className="space-y-2">
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-gray-500 flex-shrink-0 mt-0.5" />
                 <a
@@ -56,7 +54,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="pt-3 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
             &copy; {currentYear} Wiser Enterprise Ltd. All rights reserved.
           </p>
