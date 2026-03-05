@@ -14,25 +14,25 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="relative z-10">
-            {/* Decorative line */}
-            <motion.div
-              initial={{ width: 0 }}
-              animate={{ width: '60px' }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              className="h-px bg-accent-black mb-8"
-            ></motion.div>
-
             {/* Main Heading */}
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-accent-black leading-[1.1] mb-8"
+              className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-accent-black leading-[1.1] mb-6"
             >
               Beyond
               <br />
               <span className="italic text-gray-400">Manufacturing.</span>
             </motion.h1>
+
+            {/* Decorative Line */}
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: '80px' }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="h-px bg-accent-black mb-8"
+            ></motion.div>
 
             {/* Subtitle */}
             <motion.p
@@ -41,9 +41,9 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="font-serif text-xl md:text-2xl text-accent-charcoal mb-8 leading-relaxed"
             >
-              We're Your Strategic
+              Complete Solutions for
               <br />
-              <span className="text-gray-400">Growth Partner</span>
+              <span className="text-gray-400">Knitwear & Woven Apparel</span>
             </motion.p>
 
             {/* Description */}
@@ -139,7 +139,7 @@ export default function Hero() {
                 className="absolute bottom-8 left-6 z-20 bg-white/95 backdrop-blur-sm px-5 py-3 shadow-lg"
               >
                 <p className="font-serif text-lg text-accent-black">Beyond Manufacturing</p>
-                <p className="text-xs text-gray-500 mt-0.5">From concept to delivery</p>
+                <p className="text-xs text-gray-500 mt-0.5">Complete Solutions for Knitwear & Woven</p>
               </motion.div>
 
               {/* Overlay label - Bottom Right - Stats */}
@@ -182,7 +182,7 @@ export default function Hero() {
               </div>
               <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm px-4 py-3 rounded-lg shadow-lg">
                 <p className="font-serif text-base text-accent-black">Beyond Manufacturing</p>
-                <p className="text-xs text-gray-500">From concept to delivery</p>
+                <p className="text-xs text-gray-500">Complete Solutions for Knitwear & Woven</p>
               </div>
             </div>
           </motion.div>
